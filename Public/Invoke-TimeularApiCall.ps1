@@ -20,7 +20,7 @@ function Invoke-TimeularApiCall {
         Connect-Timeular
     }
 
-    $BaseUri = 'https://api.timeular.com/api/v2'
+    $BaseUri = 'https://api.timeular.com/api/v3'
 
     $RestParams = @{}
     $RestParams.Headers = @{}
